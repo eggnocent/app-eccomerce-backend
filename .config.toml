@@ -1,0 +1,23 @@
+[app]
+    name = "app-eccomerce-backend"
+
+[server]
+    port = 8000
+    read_timeout = 10
+    write_timeout = 10
+
+[database]
+	host = "localhost"
+	port = 26257
+	username = "root"
+	password = ""
+	name = "egnooc"
+	conn_timeout = 10
+	ssl_cert = ""
+	ssl_key = ""
+	ssl_root_cert = ""
+	ssl_mode = "disable"
+
+[migration]
+	schema = "database/migration/schema"
+	seed = "database/migration/seed"
