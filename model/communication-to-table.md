@@ -1,0 +1,1 @@
+for communication to table (CRUD)
